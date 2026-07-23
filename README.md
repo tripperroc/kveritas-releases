@@ -1,3 +1,7 @@
+## What is K-Veritas?
+
+K-Veritas is a tamper-evident verification protocol for research experiments. It cryptographically binds published results to the exact code, hardware, and time that produced them. Single static binary, zero runtime dependencies. Works with any language.
+
 # K-Veritas CLI Releases
 
 Pre-built binaries for the K-Veritas CLI and attestation server. Download the binaries for your platform and add them to your PATH.
@@ -84,10 +88,6 @@ kveritas run -- python train.py
 kveritas seal --output report.pdf
 kveritas verify report.pdf
 ```
-
-## What is K-Veritas?
-
-K-Veritas is a tamper-evident verification protocol for ML research experiments. It cryptographically binds published results to the exact code, hardware, and time that produced them. Single static binary, zero runtime dependencies. Works with any language.
 
 **Web verifier:** [kveritas-web.vercel.app](https://kveritas-web.vercel.app)
 
